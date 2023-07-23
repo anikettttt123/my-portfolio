@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Aniket Pratap Singh</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <!-- Add icon library -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workexperience">Work Experience</a>
+            </li>
+          </ul>
+        </div>
+        <a href="https://www.linkedin.com/in/aniket-pratap-singh-482738214/">
+          <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      
+        </a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Aniket Pratap Singh</span>
+          </h2>
+          <p class="text-muted">
+          Aspiring student mastering the art of web development and unraveling insights
+          through data analysis, merging creativity with analytics to craft impactful digital experiences. 🌐💻
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="https://github.com/anikettttt123?tab=repositories" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/WhatsApp Image 2023-07-23 at 11.04.46 PM.jpeg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/download__1_-removebg-preview.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Data Analytics</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/images__1_-removebg-preview.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Prompt Engineering</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">MERN stack</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">FLASK</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Excel and PowerBI</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">Prompt Engineering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              I am proficient in web development, crafting dynamic and user-friendly websites that engage visitors effectively.
+              My expertise in data analytics allows me to extract valuable insights from complex datasets, aiding in informed decision-making.
+              
+            </p>
+            <p class="text-muted">
+              My expertise in data analytics allows me to
+               extract valuable insights from complex datasets, aiding in informed decision-making.
+            </p>
+            <p class="text-muted">
+              Additionally, I excel in prompt engineering,
+               enabling me to fine-tune and optimize AI models like ChatGPT for enhanced performance and responsiveness.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="react">ReactJs</button>
+        <button class="filter-item" data-filter="flask">Flask</button>
+        <button class="filter-item" data-filter="mern">MERN</button>
+        <button class="filter-item" data-filter="anal">Data Analytics and Science</button>
+        
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 react all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/resume1.jpg" width="150" height="300" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Resume Builder</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">ReactJS</span>
+                
+                <br />
+                <a href="https://github.com/anikettttt123/resume_builder/tree/main/resume_builder" 
+                class="link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 react all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/2023-07-23 (2).png"
+                width="150" height="300"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Note Keeping</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">ReactJS</span>
+                <span class="badge bg-secondary badge-pill mb-2">Webapp</span
+                ><br />
+                <a href="https://github.com/anikettttt123/book_keeping" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 flask all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/2023-07-23 (3).png" width="150" height="300" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">AgriGREAT</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">flask</span>
+                <span class="badge bg-secondary badge-pill mb-2">ML</span
+                ><br />
+                <a href="https://github.com/anikettttt123/agriGREAT" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 mern all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/to-do-list.png" width="150" height="300" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">To do List</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">MongoDB</span>
+                <span class="badge bg-secondary badge-pill mb-2">NodeJS</span
+                ><br />
+                <a href="https://github.com/anikettttt123/to-do-list" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 mern all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/blog-post (2).png" width="150" height="300" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Blog Post</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">MongoDB</span>
+                <span class="badge bg-secondary badge-pill mb-2">NodeJS</span
+                ><br />
+                <a href="https://github.com/anikettttt123/blog-post" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 mern all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/insta.jpg"
+                class="card-img-top"
+                width="150" height="300"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Instagram Clone</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">Nodejs</span>
+                <span class="badge bg-secondary badge-pill mb-2">Firebase</span
+                ><br />
+                <a href="https://github.com/anikettttt123/instagram-clone" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="post col-md-4 anal all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/download (2).jpg"
+                class="card-img-top"
+                alt="..."
+                width="150" height="300"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Data Analytics</h4>
+                <span class="badge bg-secondary badge-pill"></span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="https://github.com/anikettttt123/data-analysis" class="read-more-btn link">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <h1>Work Experiences</h1>
+        <h3>Virtual Experiences</h3>
+      </div>
+      <div>
+      <div class="row adjustment justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/accenture.png"
+              class="card-img-top rounded-4"
+              alt="..."
+              width="150" height="300"
+            />
+            <div class="card-body px-4">
+             
+              <h4 class="card-title">
+                Accenture- Data Analytics and Vistualization Virtual Experience
+              </h4>
+              <p class="text-muted">Over the period of May 2023, I completed practical tasks in:</p>
+              <ul class="text-muted">
+                <li>Project Understanding</li>
+                <li>Data Cleaning & Modeling</li>
+                <li>Data Visualization & Storytelling</li>
+                <li>Present to the Client</li>
+              </ul>
+              <br>
+              <a href="/hzmoNKtzvAzXsEqx8_Accenture North America_taYAdBxCx7YjGDHmi_1685127092837_completion_certificate (2).pdf" class="read-more-btn link">View Certificate</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>  
+        <div class="row adjustment justify-content-evenly px-4 mt-4" data-aos="fade-up">
+          <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+            <div class="card">
+              <img
+                src="images/jpmc.png"
+                class="card-img-top rounded-4"
+                alt="..."
+                width="150" height="300"
+              />
+              <div class="card-body px-4">
+               
+                <h4 class="card-title">
+                  JP Morgan Chase & Co. - Software Engineering Virtual Experience
+                </h4>
+                <p class="text-muted">Over the period of May 2023 to June 2023,I completed practical tasks in:</p>
+                <ul class="text-muted">
+                  <li>Interface with a stock price data feed</li>
+                  <li>Use JPMorgan Chase & Co. frameworks and tools</li>
+                  <li>Display data visually for traders</li>
+                  <li>Bonus task: Open source contribution</li>
+                </ul>
+                <br>
+                <a href="/R5iK7HMxJGBgaSbvk_J.P. Morgan_taYAdBxCx7YjGDHmi_1689795401797_completion_certificate.pdf" class="read-more-btn link">View Certificate</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>  
+          <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+            <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+              <div class="card">
+                <img
+                  src="images/goldman.png"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                  width="150" height="300"
+                />
+                <div class="card-body px-4">
+                 
+                  <h4 class="card-title">
+                    Goldman Sachs- Software Engineering Virtual Experience
+                  </h4>
+                  <p class="text-muted">Over the period of June 2023, I completed practical tasks in:</p>
+                  <ul class="text-muted">
+                    <li>Crack leaked password database</li>
+                    
+                  </ul>
+                  <br>
+                  <a href="/NPdeQ43o8P9HJmJzg_Goldman Sachs_taYAdBxCx7YjGDHmi_1689795398947_completion_certificate.pdf" class="read-more-btn link">View Certificate</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>  
+        <br><br>
+        <div class="heading text-center pt-5">
+        
+          <h3>Virtual Internships</h3>
+        </div>
+        <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+          <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+            <div class="card">
+              <img
+                src="images/codealpha.jpg"
+                class="card-img-top rounded-4"
+                alt="..."
+              />
+              <div class="card-body px-4">
+                <h4 class="card-title">
+                  Code Alpha - Full Stack Web Development
+                </h4>
+                
+                <p class="text-muted">Over the period of July 2023, I completed tasks in:</p>
+                <ul class="text-muted">
+                  <li>Portfolio Website</li>
+                  <li>Responsive Blog website</li>
+                  <li>Resume Builder</li>
+                  
+                </ul>
+                <br>
+                <a href="#" class="read-more-btn link">View Certificate</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>  
+        
+       
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Gyan Ganga Institute of Technology and Sciences</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 6264193206</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>aniket.pratap.csai.20@ggits.net</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+             Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#workexperience">Work Experience</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a href="#contact" class="fa fa-phone"></a>
+        <a  href="" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#contact" class="fa fa-envelope"></a>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>The End.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
